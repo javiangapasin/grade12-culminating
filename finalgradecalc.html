@@ -1,0 +1,44 @@
+<html>
+        <body>
+                <style>
+                        body {
+                                background-image: url("https://static.vecteezy.com/system/resources/previews/007/385/474/non_2x/blank-notebook-paper-sheet-with-lines-illustration-vector.jpg");>                                background-color: #cccccc;
+                                background-opacity: 0.5;
+                        }
+
+                        h1 {
+                                font-size: 52px;
+                                color: black;
+                                font-family: "Gill Sans", sans-serif;
+                                }
+                        p {
+                        color: black;
+                        font-family: "Gill Sans", sans-serif;
+                        }
+
+                        img {
+                                display: block;
+                                float: left;
+
+                        }
+                </style>
+                <img src= "https://cdn-icons-png.flaticon.com/128/2228/2228715.png" 
+</img>
+                <br/> <br/> <br/> <br/> <br/> <br/>
+                <h1><center>Final Grade Calculator</center></h1>
+<form action="gradecalc.php" method="post">
+                        <!--Enter grade-->
+                                <center> <p>Enter your current grade:</center> </p>
+                        <center> <input type="number" id="currgrade" name="currgrade" min="0" max="100">% </center> </label>
+                        <center> <p>Enter your target final grade for the course:</center> </p>
+                        <center> <input type="number" id="targgrade" name="targgrade" min="0" max="100">% </center> </label>
+                        <center> <p>Enter the weight of your final exam/assignment:</p>
+                        <center> <input type="number" id="weight" name="weight" min="0" max="100">% </center> </label>
+
+                <br/> <br/> <br/>
+                <center> <input type="submit" value="Calculate" > </center>
+
+                </form>
+
+        </body>
+</html>
